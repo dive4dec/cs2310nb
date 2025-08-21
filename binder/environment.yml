@@ -1,0 +1,53 @@
+name: cs2310nb-env
+channels:
+- conda-forge
+dependencies:
+- python=3.12
+- nodejs=24.4.*
+- notebook=7.4.*
+- jupyterlab=4.4.*
+- jupyterhub=5.3.*
+- zlib=1.3.*
+- code-server=4.103.1
+- clangxx=20.1.*
+- clang-tools=20.1.*
+- libcxx=20.1.*
+- libcxx-devel=20.1.*
+- lldb=20.1.*
+- lld=20.1.*
+- libcxxabi=20.1.*
+- git
+- emacs
+- vim
+- make
+- cmake
+- openssh
+- tini
+- xz
+- numpy<2
+- matplotlib-base=3.10.*
+- ipympl=0.9.*
+- jupytext=1.17.*
+- ipywidgets=8.1.*
+- jupyterlab-myst=2.4.*
+- ipykernel=6.29.*
+- websockify=0.13.*
+- jupyter-vscode-proxy=0.6
+- black=25.1.*
+- jupyterlab_code_formatter=3.0.*
+- jupyterlab-lsp=5.1.*
+- jupyter-resource-usage=1.1.*
+- nbgitpuller=1.2.*
+- jupyterlab-git=0.51.*
+- gh=2.74.*
+- jupyter-ai=2.31.*
+- xeus-cpp
+- xtensor
+- root
+- pip:
+  - python-lsp-server[all]==1.12.*
+  - astyle==3.6.*
+  - jupyter-www-proxy
+  - divewidgets
+  - nbgrader@git+https://github.com/dive4dec/nbgrader.git@8e0b69a6da48856e6f180d27041b6e1c96602934
+  - jdc
