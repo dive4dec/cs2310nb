@@ -3,7 +3,7 @@ channels:
 - conda-forge
 dependencies:
 - python=3.12
-- nodejs=24.4.*
+- nodejs<21
 - notebook=7.4.*
 - jupyterlab=4.4.*
 - jupyterhub=5.3.*
@@ -43,7 +43,7 @@ dependencies:
 - jupyter-ai=2.31.*
 - xeus-cpp
 - xtensor
-- root
+- root=6.34.*
 - pip:
   - python-lsp-server[all]==1.12.*
   - astyle==3.6.*
