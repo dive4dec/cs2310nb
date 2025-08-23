@@ -1,6 +1,7 @@
 # CS2310 Binder Environment
 This Binder environment launches a Jupyter Notebook server using the custom Docker image `chungc/cs2310nb`.
 
+
 ## Launch Binder
 
 Click the badge below to launch:
