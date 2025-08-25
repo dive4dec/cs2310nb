@@ -1,0 +1,55 @@
+name: cs2310nb
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.12
+  - notebook
+  - jupyterlab
+  - root
+  - code-server
+  - clangxx
+  - clang-tools
+  - libcxx
+  - libcxx-devel
+  - lldb
+  - lld
+  - emscripten
+  - git
+  - emacs
+  - vim
+  - make
+  - cmake
+  - openssh
+  - xz
+  - numpy
+  - matplotlib-base
+  - ipympl
+  - jupytext
+  - ipywidgets
+  - jupyterlab-myst
+  - ipykernel
+  - websockify
+  - jupyter-vscode-proxy
+  - black
+  - jupyterlab_code_formatter
+  - jupyterlab-lsp
+  - jupyter-resource-usage
+  - nbgitpuller
+  - jupyterlab-git
+  - gh
+  - jupyter-ai
+  - xeus-cpp
+  - xtensor
+  - jupyterlab_execute_time
+  - pip:
+    - python-lsp-server[all]
+    - astyle
+    - jupyter-www-proxy
+    - mystmd
+    - divewidgets
+    - nbgrader@git+https://github.com/dive4dec/nbgrader.git@8e0b69a6da48856e6f180d27041b6e1c96602934
+    - jdc
+    - git+https://github.com/dive4dec/dive_ai@3b9e78f5adaa7c633c8eaf5c0ae392b1627683d6#subdirectory=dive_ai
+variables:
+  COURSE_ID: "cs1302_25a"
